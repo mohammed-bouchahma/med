@@ -28,3 +28,4 @@ def get_paths(url):
 for path in get_paths(target_url):
     response = requests.get(path)
     print(f"{path}: {response.status_code}")
+
